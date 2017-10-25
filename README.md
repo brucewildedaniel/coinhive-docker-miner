@@ -5,5 +5,16 @@ Easily create a docker image for Coinhive mining with your Key, Username and you
 
 ## Utilisation
 * Clone the repos in your prefered distro
-`git clone https://github.com/bilyboy785/coinhive-docker-miner.git /opt/`
+
+`
+git clone https://github.com/bilyboy785/coinhive-docker-miner.git /opt/
+cd coinhive-docker-miner
+`
+
+* Launch the **dockerminer.sh** script and follow instructions :
+
+`
+./dockerminer.sh
+`
+
 
