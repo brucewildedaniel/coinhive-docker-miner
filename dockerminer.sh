@@ -1,4 +1,8 @@
 #!/bin/bash
+
+sudo apt-get install docker.io -y
+sudo apt-get update -y
+
 coinhivefile="coin-hive.js"
 
 clear
