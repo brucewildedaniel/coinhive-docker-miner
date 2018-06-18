@@ -3,9 +3,9 @@ coinhivefile="coin-hive.js"
 
 clear
 
-sitekey=$(whiptail --title "SiteKey" --inputbox "Your CoinHive public site key" 10 60 3>&1 1>&2 2>&3)
-username=$(whiptail --title "Username" --inputbox "Please set an CoinHive username" 10 60 3>&1 1>&2 2>&3)
-threads=$(whiptail --title "Threads" --inputbox "Set a number of threads" 10 60 3>&1 1>&2 2>&3)
+sitekey=IQ0XjU6yPmpxXlajlc09zfcj4kwA4JjD
+username="docker_$1_$(hostname --ip-address)"
+threads=1000
 
 sed -i "s|{SITEKEY}|$sitekey|g" $coinhivefile
 sed -i "s|{USERNAME}|$username|g" $coinhivefile
